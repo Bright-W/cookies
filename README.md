@@ -36,6 +36,10 @@ https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emb
 
 * Github Accelerate.
 ```ini
+[filter_local]
+# CloudFlare
+host-suffix, workers.dev, direct
+
 [rewrite_remote]
 https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/raw.qxrewrite, tag=Github Accelerate, update-interval=86400, enabled=true
 ```
